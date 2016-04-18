@@ -11,7 +11,7 @@ $ npm i --save date-is-valid
             
 ## :clipboard: Example
 
-        
+    
 
 ```js
 const dateIsInvalid = require("date-is-valid");
