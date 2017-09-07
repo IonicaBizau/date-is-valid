@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Check if a date is invalid or not.
 
 #### Params
+
 - **Date** `d`: The input date.
 
 #### Return
