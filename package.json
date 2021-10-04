@@ -18,6 +18,9 @@
     "test": "node test"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "contributors": [
+    "Desiderio Silva <desideriotbs@gmail.com> (https://github.com/dsilva01)"
+ ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/IonicaBizau/date-is-valid.git"
