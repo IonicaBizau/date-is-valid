@@ -74,12 +74,18 @@ yarn add date-is-valid
 
 
 ```js
-const dateIsInvalid = require("date-is-valid");
+const dateIsValid = require("date-is-valid");
 
-console.log(dateIsInvalid(new Date()));
+console.log(dateIsValid(new Date()));
 // => true
 
-console.log(dateIsInvalid(new Date("foo")));
+console.log(dateIsValid(new Date("foo")));
+// => false
+
+console.log(dateIsValid("2023-10-01T16:01:52.525Z"));
+// => true
+
+console.log(dateIsValid("2023-15-12T16:01:52.525Z"));
 // => false
 ```
 

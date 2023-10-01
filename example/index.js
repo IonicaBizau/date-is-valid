@@ -7,3 +7,6 @@ console.log(dateIsInvalid(new Date()));
 
 console.log(dateIsInvalid(new Date("foo")));
 // => false
+
+console.log(dateIsInvalid("2023-10-01T16:01:52.525Z"));
+// => true
